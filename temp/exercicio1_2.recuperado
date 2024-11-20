@@ -12,7 +12,7 @@ programa
         }
         escreva("\n")
         
-        inteiro copia
+        inteiro aux 
         para (inteiro i = 0; i < 10; i++)
         {
             para (inteiro j = 0; j < 10 - i - 1; j++)
@@ -20,9 +20,9 @@ programa
                 se (vetor[j] < vetor[j + 1])
                 {
          
-                    copia = vetor[j]
+                    aux = vetor[j]
                     vetor[j] = vetor[j + 1]
-                    vetor[j + 1] = copia
+                    vetor[j + 1] = aux
                 }
             }
         }
@@ -49,9 +49,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 790; 
+ * @POSICAO-CURSOR = 283; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {i, 9, 22, 1}-{i, 16, 22, 1}-{j, 18, 26, 1}-{i, 32, 22, 1};
+ * @SIMBOLOS-INSPECIONADOS = {i, 9, 22, 1}-{aux, 15, 16, 3}-{i, 16, 22, 1}-{j, 18, 26, 1}-{i, 32, 22, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
